@@ -53,7 +53,7 @@ function UserNameWithStyle() {
     return (
         <>
             <br/>
-            <p>Stylish: {user_data.name} is {user_data.age} years old and he {(user_data.age >= 7) ? "studies in grade":(user_data.age >= 4 ? "studies in":"is")} {(user_data.age >= 7) ? user_data.grade : (user_data.age >= 4?"Pre-School":'Not going to school yet')}</p>
+            <p>Stylish: {user_data.name} is {user_data.age} years old and he {(user_data.age >= 7) ? "studies in grade":(user_data.age >= 4 ? "studies in":"is")} {(user_data.age >= 7) ? user_data.grade : (user_data.age >= 4?"Pre-School":'not going to school yet')}</p>
             <UserScore/>
         </>
     );
